@@ -26,7 +26,7 @@ namespace ABCDriving.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=WINDOWS11-PC\\NEWSERVER;Initial Catalog=F25_285B;Integrated Security=T" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=YOUR_SERVER_NAME\\INSTANCE_NAME;Initial Catalog=F25_285B;Integrated Security=T" +
             "rue;Encrypt=True;TrustServerCertificate=True")]
         public string F25_285BConnectionString {
             get {

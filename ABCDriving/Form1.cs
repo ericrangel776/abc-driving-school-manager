@@ -35,8 +35,7 @@ namespace ABCDriving
         // Method to get the database connection string
         private string getConnectionString()
         {
-            //CHANGE WHEN SUBMITTED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            return "Data Source=LAPTOP-68IQSD0R\\NEWSERVER;Initial Catalog=F25_285B;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+            return "Data Source=YOUR_SERVER_NAME\\INSTANCE_NAME;Initial Catalog=F25_285B;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
         }
 
         // when either ID textbox field changes, reload the respective datagrid (either client or staff)
